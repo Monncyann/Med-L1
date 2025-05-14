@@ -7,7 +7,13 @@ pip install packaging
 
 pip install ninja
 
-pip install flash-attn --no-build-isolation (specific version with cuda)
+pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.4cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
+
+pip install -e .
+
+pip install sacrebleu
+
+pip install nltk
 
 # Data have been prepared
 in the `scripts/data/processed_data` and `scripts/data/processed_data_normal` folder
